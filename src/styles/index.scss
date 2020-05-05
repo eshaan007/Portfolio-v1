@@ -620,3 +620,69 @@ html {
       font-size: 100%;
     }
   }
+
+
+  @import url('https://fonts.googleapis.com/css?family=Lora:400,700|Source+Sans+Pro:300,400|Dosis:300,400,700');
+
+$link-color: #007FFF; // slateblue
+// $link-color: #303C55; // picasso blue
+// $link-color: rgba(0, 127, 225, 0.75);
+
+article {
+  max-width: 700px;
+  margin: 0px auto;
+  padding: 10px;
+  font-family: "Source Sans Pro", sans-serif;
+  color: #36363C;
+
+  h1 {
+    font-weight: 300;
+    line-height: 1.5;
+    font-size: 2.1rem;
+  }
+
+  .highlight-link {
+    text-decoration: none;
+    color: #36363C;
+    display: inline-block;
+    padding: 0px 7px;
+    transition: all .2s ease-in-out;
+    box-sizing: border-box;
+    text-decoration: none;
+    box-shadow: inset 0 -5px 0 $link-color;
+    &:hover {
+      box-shadow: inset 0 -47px 0 0 $link-color;
+      color: white;
+    }
+  }
+
+  .arrow-link {
+    color: #36363C;
+    font-size: 1.5rem;
+    -webkit-transition: all .15s ease-in-out;
+    background-color: transparent;
+    text-decoration: none;
+    white-space: nowrap;
+
+    &:after {
+      position: relative;
+      bottom: 0.2ex;
+      margin-left: 10px;
+
+      color: $link-color;
+      font-family: "FontAwesome";
+      font-size: 1.5rem;
+      display: inline-block;
+      vertical-align: middle;
+      -webkit-transition: all .15s ease-in-out;
+    }
+
+    &:hover {
+			font-weight: bold;
+    }
+
+    &:hover:after {
+      transform: translateX(7px);
+    }
+  }
+}
