@@ -7,16 +7,17 @@
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: 'My Full-Stack-Portfolio.',
-    author: 'Eshaan Khurana'
+    title: 'My Portfolio.',
+    author: 'Eshaan Khurana',
   },
   plugins: [
+    'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'src',
-        path: `${__dirname}/src/`
+        path: `${__dirname}/src/`,
       }
     },
     'gatsby-plugin-sharp',
@@ -29,7 +30,7 @@ module.exports = {
             resolve: 'gatsby-remark-images',
             options: {
               maxwidth: 750,
-              linkImagesToOriginal: false
+              linkImagesToOriginal: false,
             }
           }
         ]
