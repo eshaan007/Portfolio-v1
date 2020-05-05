@@ -6,6 +6,8 @@ date: "2020-05-03"
 
 I just developed my Portfolio
 
+![coffee](/prog.jpg)
+
 ## All Things I have Studied Before
 
 1. Gatsby
