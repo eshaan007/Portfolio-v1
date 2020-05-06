@@ -686,3 +686,22 @@ article {
     }
   }
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+
+.intro {
+  color: $link-color;
+  font-family: 'Roboto Mono', monospace;
+}
+
+.name {
+  margin-top: -20px;
+  margin-left: -4px;
+  font-size: 4rem;
+}
+
+.aftername {
+  margin-top: -20px;
+  font-size: 3rem;
+  color: #625d5d;
+}
