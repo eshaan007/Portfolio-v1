@@ -13,7 +13,11 @@ const IndexPage = () => {
                 <h2 className="aftername"> I build things for the web.</h2>
                 <h4 className="desc">I'm a Sophomore @ IIIT, Vadodara specializing in building websites using various frameworks.
                 Check my Profile <a className="highlight-link" href="https://github.com/eshaan007" target="_blank">@eshaan007</a>👩🏻‍💻</h4>
-                <p className=""><a href="mailto:eshaany2k@gmail.com" className="arrow-link">Get in touch ➡️</a></p>
+                <p>
+                    <button href="mailto:eshaany2k@gmail.com" className="arrow-link">
+                    Get in touch
+                    </button>
+                </p>
             </article> 
         </Layout>
     )
