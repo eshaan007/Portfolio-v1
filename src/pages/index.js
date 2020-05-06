@@ -24,8 +24,10 @@ const IndexPage = () => {
                 <h4 className="desc">I'm a Sophomore @ IIIT, Vadodara specializing in building websites using various frameworks.
                 Check my Profile <a className="highlight-link" href="https://github.com/eshaan007" target="_blank">@eshaan007</a>👩🏻‍💻</h4>
                 <p>
-                    <button href="mailto:eshaany2k@gmail.com" className="arrow-link" target="_blank">
-                    Get in touch
+                    <button className="arrow-link" target="_blank">
+                        <a href="mailto:eshaany2k@gmail.com">
+                            Get in touch
+                        </a>
                     </button>
                 </p>
             </article> 

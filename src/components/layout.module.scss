@@ -1,11 +1,14 @@
 .container {
     margin: 0 auto;
-    max-width: 1200px;
-    padding: 1rem;
-    color: #a6bdbf;
     display: flex;
     flex-direction: column;
-    min-height: 150vh;
+    min-height: 100vh;
+
+    .a:visited .a{
+        text-decoration: none;
+        $link-color: #007FFF;
+        color: $link-color;
+    }
 }
 
 .content {

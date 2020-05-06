@@ -1,5 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=Roboto+Mono:wght@300&display=swap');
+
 .header {
     padding: 1rem 0 3rem;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 1000px;
+    padding: 10px;
+    color: #007fff;
+
 }
 
 .title{
@@ -22,9 +29,15 @@
 }
 
 .nav-item:hover {
-    color: #dde2e6;
+    color: #007fff;
 }
 
 .active-nav-item {
     color: #ffffff;
+}
+
+.p {
+    font-family: 'Roboto Mono', monospace;
+    color: #007fff;
+    font-weight: bold;
 }

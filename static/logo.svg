@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" id="svg" version="1.1" viewBox="0 0 100 100" x="0px" y="0px"><style type="text/css">/* latin */
-@font-face {
-  font-family: 'Sirin Stencil';
-  font-style: normal;
-  font-weight: 400;
-  src: local('SirinStencil'), local('SirinStencil-Regular'), url(https://fonts.gstatic.com/s/sirinstencil/v8/mem4YaWwznmLx-lzGfN7MdRyRc9MBw.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
-}
-</style><defs><clipPath id="circleClip"><circle cx="50" cy="50" r="50"/></clipPath><clipPath id="polygonClip"><polygon points=" 50,0 6.666666666666667,25 6.666666666666667,75 50,100 93.33333333333333,75 93.33333333333333,25 "/></clipPath></defs><polygon clip-path="url(#polygonClip)" fill="#0a192f" points=" 50,0 6.666666666666667,25 6.666666666666667,75 50,100 93.33333333333333,75 93.33333333333333,25 " stroke="#007FFF" stroke-width="0"/><text fill="#007FFF" font-family="Sirin Stencil" font-size="72" font-weight="1200" text-anchor="middle" x="50" y="76"><tspan dy="0" x="50">E</tspan></text></svg>

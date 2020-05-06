@@ -6,7 +6,8 @@
     font-family: 'Roboto Mono', monospace;
 }
 
-.linkcolor .a:hover{
+.a:visited .a{
+    text-decoration: none;
     $link-color: #007FFF;
     color: $link-color;
 }
