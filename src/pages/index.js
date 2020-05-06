@@ -2,16 +2,6 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head';
-import { ReactComponent as logo } from '../images/logo.svg';
-
-function App() {
-  return (
-    <div>
-      {logo}
-      <logo />
-    </div>
-  );
-}
 
 const IndexPage = () => {
     return(
@@ -22,9 +12,9 @@ const IndexPage = () => {
                 <h2 className="name">Eshaan Khurana.</h2>
                 <h2 className="aftername"> I build things for the web.</h2>
                 <h4 className="desc">I'm a Sophomore @ IIIT, Vadodara specializing in building websites using various frameworks.
-                Check my Profile <a className="highlight-link" href="https://github.com/eshaan007" target="_blank">@eshaan007</a>👩🏻‍💻</h4>
+                Check my Profile <a className="highlight-link" href="https://github.com/eshaan007" target="_blank" rel="noopener noreferrer">@eshaan007</a>👩🏻‍💻</h4>
                 <p>
-                    <button className="arrow-link" target="_blank">
+                    <button className="arrow-link" target="_blank" rel="noopener noreferrer">
                         <a href="mailto:eshaany2k@gmail.com">
                             Get in touch
                         </a>

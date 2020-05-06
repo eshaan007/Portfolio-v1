@@ -3,22 +3,31 @@
     margin: 0;
 }
 
+.subblog {
+    max-width: 1000px;
+}
+
 .post {
-    margin: 1rem 0;
+    margin-top: 130px;
 
     a {
-        background: #f4f4f4;
-        color: #000000;
+        margin-top: 30px;
+        margin-inline-end: 693px;
+        background: #0a192f;
+        color: #f4f4f4;
         display: block;
         padding:  1rem;
         text-decoration: none;
+        border: 2px solid #007fff;
     }
 
     a:hover {
-        background: #e4e4e4; 
+        background-color: rgba(100, 180, 255, 0.07);
+        color: #007FFF;
     }
 
     h2 {
+        margin-top: 30px;
         margin-bottom: 0;
     }
 
@@ -27,4 +36,8 @@
         font-size: .8rem;
         font-style: italic;
     }
+}
+
+.blogtemp {
+    margin-top: 130px;
 }
