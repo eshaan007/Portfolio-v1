@@ -11,6 +11,12 @@ module.exports = {
     author: 'Eshaan Khurana',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        icon: `src/images/logo.png`,
+      }
+    },
     'gatsby-plugin-react-helmet',
     'gatsby-plugin-sass',
     {
