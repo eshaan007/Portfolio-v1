@@ -1,7 +1,17 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
-import Head from '../components/head'
+import Head from '../components/head';
+import { ReactComponent as logo } from '../images/logo.svg';
+
+function App() {
+  return (
+    <div>
+      {logo}
+      <logo />
+    </div>
+  );
+}
 
 const IndexPage = () => {
     return(
@@ -14,7 +24,7 @@ const IndexPage = () => {
                 <h4 className="desc">I'm a Sophomore @ IIIT, Vadodara specializing in building websites using various frameworks.
                 Check my Profile <a className="highlight-link" href="https://github.com/eshaan007" target="_blank">@eshaan007</a>👩🏻‍💻</h4>
                 <p>
-                    <button href="mailto:eshaany2k@gmail.com" className="arrow-link">
+                    <button href="mailto:eshaany2k@gmail.com" className="arrow-link" target="_blank">
                     Get in touch
                     </button>
                 </p>
