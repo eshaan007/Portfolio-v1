@@ -6,18 +6,12 @@ html {
 
   body {
     margin: 0;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    color: hsla(0, 0%, 0%, 0.8);
-    font-family: sans-serif;
-    font-weight: normal;
-    word-wrap: break-word;
-    font-kerning: normal;
-    -moz-font-feature-settings: "kern", "liga", "clig", "calt";
-    -ms-font-feature-settings: "kern", "liga", "clig", "calt";
-    -webkit-font-feature-settings: "kern", "liga", "clig", "calt";
-    font-feature-settings: "kern", "liga", "clig", "calt";
+    background-color: #0a192f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+  
   h1,h2,h3,h4,h5,h6 {
     margin-left: 0;
     margin-right: 0;
@@ -71,7 +65,7 @@ $link-color: #007FFF; // slateblue
 // $link-color: rgba(0, 127, 225, 0.75);
 
 article {
-  max-width: 700px;
+  max-width: 1400px;
   margin: 0px auto;
   padding: 10px;
   font-family: "Source Sans Pro", sans-serif;
