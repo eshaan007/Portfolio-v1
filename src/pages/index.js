@@ -2,12 +2,18 @@ import React from 'react'
 import { Link } from 'gatsby'
 import Layout from '../components/layout'
 import Head from '../components/head';
+import AboutPage from './about'
+import Header from '../components/header'
+import Footer from '../components/footer'
+import ContactPage from './contact'
 
 const IndexPage = () => {
     return(
         <Layout>
             <Head title="Home"/>
+            <Header />
             <article>
+
                 <h4 className="intro">Hi, my name is </h4>
                 <h2 className="name">Eshaan Khurana.</h2>
                 <h2 className="aftername"> I build things for the web.</h2>
@@ -21,7 +27,11 @@ const IndexPage = () => {
                     </button>
                 </p>
             </article> 
+            <AboutPage />
+            <ContactPage />
+            <Footer/>
         </Layout>
+        
     )
 }
 

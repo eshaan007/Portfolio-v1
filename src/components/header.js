@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link, graphql, useStaticQuery } from 'gatsby';
-
 // import './header.module.scss'
 import headerStyles from './header.module.scss'
 
@@ -25,14 +24,10 @@ const Header = () => {
                     </li>
                     <li>
                         <a className="number">1.</a>
-                        <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/blog"> Blog </Link>
-                    </li>
-                    <li>
-                        <a className="number">2.</a>
                         <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/about"> About </Link>
                     </li>
                     <li>
-                        <a className="number">3.</a>
+                        <a className="number">2.</a>
                         <Link className={headerStyles.navItem} activeClassName={headerStyles.activeNavItem} to="/contact"> Contact </Link>
                     </li>
                 </ul>
