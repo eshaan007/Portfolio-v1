@@ -13,9 +13,7 @@ const IndexPage = () => {
         <Layout>
             <Head title="Home"/>
             <Header />
-            
-            <img className="myavatar" src = {avatar} alt="Avatar"/>
-
+        
             <article className = "contain">
                 <h4 className="intro">Hi, my name is </h4>
                 <h2 className="name">Eshaan Khurana.</h2>
@@ -30,6 +28,9 @@ const IndexPage = () => {
                     </button>
                 </p>
             </article> 
+
+            <img className="myavatar" src = {avatar} alt="Avatar"/>
+
             <AboutPage />
             <ContactPage />
             <Footer/>
