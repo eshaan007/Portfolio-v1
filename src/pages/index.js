@@ -6,14 +6,17 @@ import AboutPage from './about'
 import Header from '../components/header'
 import Footer from '../components/footer'
 import ContactPage from './contact'
+import avatar from '../images/avataaar.png'
 
 const IndexPage = () => {
     return(
         <Layout>
             <Head title="Home"/>
             <Header />
-            <article>
+            
+            <img className="myavatar" src = {avatar} alt="Avatar"/>
 
+            <article className = "contain">
                 <h4 className="intro">Hi, my name is </h4>
                 <h2 className="name">Eshaan Khurana.</h2>
                 <h2 className="aftername"> I build things for the web.</h2>
